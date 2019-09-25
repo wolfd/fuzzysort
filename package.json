@@ -1,5 +1,5 @@
 {
-  "name": "fuzzy-sort",
+  "name": "@danny-wolf/fuzzysort",
   "version": "1.1.5",
   "description": "Fast SublimeText-like fuzzy search for JavaScript",
   "keywords": [
@@ -11,7 +11,7 @@
   ],
   "author": "farzher",
   "maintainers": [
-    "wolfd"
+    "danny-wolf"
   ],
   "license": "MIT",
   "main": "fuzzysort.js",

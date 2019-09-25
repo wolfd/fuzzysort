@@ -1,19 +1,3 @@
-/*
-WHAT: SublimeText-like Fuzzy Search
-
-USAGE:
-  fuzzysort.single('fs', 'Fuzzy Search') // {score: -16}
-  fuzzysort.single('test', 'test') // {score: 0}
-  fuzzysort.single('doesnt exist', 'target') // null
-
-  fuzzysort.go('mr', ['Monitor.cpp', 'MeshRenderer.cpp'])
-  // [{score: -18, target: "MeshRenderer.cpp"}, {score: -6009, target: "Monitor.cpp"}]
-
-  fuzzysort.highlight(fuzzysort.single('fs', 'Fuzzy Search'), '<b>', '</b>')
-  // <b>F</b>uzzy <b>S</b>earch
-*/
-
-// UMD (Universal Module Definition) for fuzzysort
 ;(function(root, UMD) {
   if(typeof define === 'function' && define.amd) define([], UMD)
   else if(typeof module === 'object' && module.exports) module.exports = UMD()

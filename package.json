@@ -1,7 +1,7 @@
 {
-  "name": "fuzzysort",
-  "version": "1.1.4",
-  "description": "Fast SublimeText-like fuzzy search for JavaScript",
+  "name": "fuzzy-sort",
+  "version": "2.0.0",
+  "description": "Fast SublimeText-like fuzzy search for JavaScript (fork of fuzzysort)",
   "keywords": [
     "fuzzy",
     "search",
@@ -11,13 +11,16 @@
   ],
   "author": "farzher",
   "license": "MIT",
-  "main": "fuzzysort.js",
+  "main": "fuzzy.js",
   "scripts": {
     "test": "node test.js",
-    "build": "uglifyjs fuzzysort.js -m -c -o fuzzysort.min.js"
+    "build": "tsc fuzzy.ts"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/farzher/fuzzysort.git"
+    "url": "https://github.com/wolfd/fuzzysort.git"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3"
   }
 }

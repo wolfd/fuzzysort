@@ -1,6 +1,6 @@
 {
-  "name": "fuzzysort",
-  "version": "1.1.4",
+  "name": "fuzzy-sort",
+  "version": "1.1.5",
   "description": "Fast SublimeText-like fuzzy search for JavaScript",
   "keywords": [
     "fuzzy",
@@ -10,6 +10,9 @@
     "sublime"
   ],
   "author": "farzher",
+  "maintainers": [
+    "wolfd"
+  ],
   "license": "MIT",
   "main": "fuzzysort.js",
   "scripts": {
@@ -18,6 +21,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/farzher/fuzzysort.git"
+    "url": "https://github.com/wolfd/fuzzysort.git"
   }
 }

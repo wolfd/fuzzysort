@@ -1,6 +1,6 @@
 {
   "name": "@danny-wolf/fuzzysort",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Fast SublimeText-like fuzzy search for JavaScript",
   "keywords": [
     "fuzzy",
@@ -14,6 +14,7 @@
     "danny-wolf"
   ],
   "license": "MIT",
+  "types": "index.d.ts",
   "main": "fuzzysort.js",
   "scripts": {
     "test": "node test.js",
